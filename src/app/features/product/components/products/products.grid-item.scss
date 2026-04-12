@@ -1,0 +1,81 @@
+.item-grid-container {
+  // border: 1px solid blue;
+  width: 100%;
+  aspect-ratio: 1;
+  padding: 5px;
+}
+
+.item-grid-image {
+  width: 100%;
+  aspect-ratio: 4/3;
+  background-color: var(--primary-bg-color);
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+}
+
+.item-grid-image-container {
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.item-grid-image-container > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.item-grid-status {
+  position: absolute;
+}
+
+.item-grid-details {
+  height: 40%;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.item-grid-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.category {
+  font-size: 1rem;
+  font-weight: bold;
+  min-width: 40%;
+}
+
+.item-grid-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.item-grid-description {
+  flex: 1;
+}
+
+.item-grid-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: auto;
+}
+
+.item-grid-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--primary-font-color);
+  min-width: 20%;
+}
+
+//--------------list-item-grid------------
