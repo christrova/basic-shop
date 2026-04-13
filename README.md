@@ -2,7 +2,12 @@
 
 ## Description
 
-Basic Shop is a web application developed with Angular for managing an online store's products.
+Basic Shop is a web application built with Angular to manage products in an online store.
+
+The goal of this project is to interact with the backend API:
+https://github.com/christrova/basic-shop-api
+
+🔗 Live demo: https://basic-shop-demo.vercel.app
 
 ## Prerequisites
 
@@ -45,7 +50,7 @@ or
 
 ## Demo
 
-[Basic shop](https://basic-shop.vercel.app)
+[Basic shop](https://basic-shop-demo.vercel.app)
 
 ## Development server
 
